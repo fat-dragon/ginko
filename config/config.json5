@@ -1,0 +1,30 @@
+//
+// This is a config file.
+//
+{
+    //
+    // Fundamental system details.
+    //
+    system: "My Cool BBS",
+    admin: "Dan Cross <cross@fat-dragon.org>",
+    location: "The Cloud",
+
+    //
+    // nets
+    //
+    nets: [
+        {
+            name: "fidonet",
+            address: "1:387/108@fidonet",
+            links: [
+                {
+                    address: "1:387/1@fidonet",
+                    password: "NOT_MY_REAL_PASSWORD",
+                    in: "/bbs/ftn/fidonet/in",
+                    out: "/bbs/ftn/fidonet/out",
+                    poll: "15m"
+                }
+            ]
+        }
+    ]
+}
